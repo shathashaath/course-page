@@ -1,6 +1,17 @@
 @import "_variables.scss";
 @import "_mixin.scss";
 
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
 body {
   font-family: "Helvetica", san-serif;
 }
@@ -13,3 +24,24 @@ body {
   padding-left: 10%;
   position: relative;
 }
+.title-header-primary:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left ul {
+  display: block;
+}
+.subtitle:after,.nav:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  .header {
+    height: 500px;
+    position: relative;
+  }
+  .nav li {
+    display: none;
+  }
