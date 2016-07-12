@@ -1,3 +1,56 @@
+.color-primary {
+  color: #285c80; }
 
+.color-secondary {
+  color: #edeff0; }
+
+.color-tertiary {
+  color: #fff; }
+
+.course-section-1:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-2:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-3:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-4:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-5:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-6:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+.course-section-7:before {
+  content: url("../img/course-arrow.png");
+  position: absolute;
+  left: -10px; }
+
+body {
+  font-family: "Helvetica", san-serif; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+.course-selection {
+  padding-left: 10%;
+  position: relative; }
 
 /*# sourceMappingURL=styles.css.map */

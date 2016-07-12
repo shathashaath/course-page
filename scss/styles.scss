@@ -1,0 +1,15 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+body {
+  font-family: "Helvetica", san-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.course-selection {
+  padding-left: 10%;
+  position: relative;
+}

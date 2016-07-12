@@ -1,0 +1,12 @@
+@each $color-type, $color-value in $colors {
+  .color-#{$color-type} {
+    color: $color-value;
+  }
+}
+@for $i from 1 through 7 {
+  .course-section-#{$i}:before {
+    content: $course-arrow;
+    position: absolute;
+    left: -10px;
+  }
+}
